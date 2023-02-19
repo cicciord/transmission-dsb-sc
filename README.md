@@ -8,7 +8,7 @@ Analysis of a communication system operating the transmission of an analogue aud
 
 ## Audio file
 
-The audio file used is in the `assets` folder.If you change the name of the file please do the same `config.m`.
+The audio file used is in the `assets` folder. If you change the name of the file please do the same `config.m`.
 
 It is also possible to record the audio file executing the `record_audio.m` or `record_audio_diff.m`. The first records a stereo audio from your microphone, if the signal is not stereo it duplicates the same signal; the latter lets you record two different audio and saves them into the two channels of a stereo audio.
 
@@ -20,7 +20,7 @@ The simulation is divided in 3 main tasks. To run them it is enough to execute c
 
 - Task 1: static receiver -> `static_receiver.m`
 - Task 2: pure carrier PLL -> `pure_carrier.m`
-- Task 3: mobile receiver -> `mobile_receiver-m`
+- Task 3: mobile receiver -> `mobile_receiver.m`
 
 Beware, `mobile_receiver.m` runs the PLL computation 100 times with current sectings, it might take some time to complete the execution depending on your machine.
 
